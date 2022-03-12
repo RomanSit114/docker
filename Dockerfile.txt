@@ -1,0 +1,3 @@
+FROM debian:wheezy
+RUN mkdir /tmp/212
+RUN fallocate -l 1G /tmp/212/bar
